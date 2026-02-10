@@ -1,0 +1,42 @@
+# Build output
+out/
+build/
+*.jar
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle files (if you add Gradle later)
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Package Files
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
