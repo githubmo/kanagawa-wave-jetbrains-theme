@@ -1,30 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-  <defs>
-    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7E9CD8"/>
-      <stop offset="100%" style="stop-color:#658594"/>
-    </linearGradient>
-  </defs>
-
   <!-- Background -->
   <circle cx="20" cy="20" r="18" fill="#1F1F28"/>
 
-  <!-- Large wave -->
-  <path d="M3 22 Q7 18 11 20 Q15 22 17 18 Q19 14 23 18 L23 37 L3 37 Z" fill="url(#waveGradient)"/>
+  <!-- Back wave layer -->
+  <path d="M2 28 Q6 26 10 28 Q14 30 18 27 Q22 24 26 28 Q30 31 34 28 Q36 27 38 28 L38 38 L2 38 Z"
+        fill="#658594" opacity="0.7"/>
 
-  <!-- Wave crest foam -->
-  <path d="M11 20 Q13 18 15 19 Q17 20 17 18" stroke="#C8C093" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-  <circle cx="13" cy="19" r="0.8" fill="#DCD7BA" opacity="0.7"/>
-  <circle cx="15" cy="18.5" r="0.6" fill="#DCD7BA" opacity="0.6"/>
+  <!-- Middle wave layer -->
+  <path d="M2 24 Q8 20 14 23 Q20 26 26 22 Q32 18 38 22 L38 38 L2 38 Z"
+        fill="#7AA89F" opacity="0.75"/>
 
-  <!-- Small wave -->
-  <path d="M23 24 Q27 22 31 24 Q34 25 37 24 L37 37 L23 37 Z" fill="#7AA89F" opacity="0.85"/>
+  <!-- Front large wave -->
+  <path d="M2 20 Q6 14 10 18 Q14 22 18 15 Q22 8 26 18 L26 38 L2 38 Z"
+        fill="#7E9CD8" opacity="0.85"/>
 
-  <!-- Small wave foam -->
-  <path d="M31 24 Q32.5 23 34 24" stroke="#C8C093" stroke-width="1" fill="none" stroke-linecap="round"/>
-  <circle cx="32" cy="23.5" r="0.5" fill="#DCD7BA" opacity="0.6"/>
-
-  <!-- Mount Fuji -->
-  <path d="M15 28 L19 23 L23 28 Z" fill="#DCD7BA" opacity="0.5"/>
-  <path d="M18 25 L19 23 L20 25 Z" fill="#C8C093" opacity="0.6"/>
+  <!-- Small front wave -->
+  <path d="M26 22 Q30 18 34 21 Q36 22 38 20 L38 38 L26 38 Z"
+        fill="#7E9CD8" opacity="0.75"/>
 </svg>
