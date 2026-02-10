@@ -1,4 +1,4 @@
-# Kanagawa Island Theme
+# Kanagawa Wave Island Theme
 
 A dark theme for JetBrains IDEs inspired by the colors of the famous painting "The Great Wave off Kanagawa" by Katsushika Hokusai.
 
